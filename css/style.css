@@ -120,6 +120,11 @@ body {
 
 }
 
+#work .btn{
+margin:20px;
+
+}
+
 .btn-md {
     border-width: medium;
     border-radius: 0;
@@ -152,6 +157,8 @@ h3.heading {
 .portfolio img {
     max-width: 100%;
     transition: transform .5s ease;
+    height: 350px;
+     width: 450px;
 }
 
 .row.no-padding [class*=col-] {

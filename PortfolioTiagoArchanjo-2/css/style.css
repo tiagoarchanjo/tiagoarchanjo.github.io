@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Oswald|Pacifico|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture|Indie+Flower|Noto+Sans+TC|Roboto');
+ 
+ body{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Lato';
+  width:100%;
+  margin: auto;
+  background: #F1F1F1;
+  
+ }
+#navbarMenu a{
+color: rgba(25,25,25);
+font-family: 'Verdana';
+
+}
+.navbar.navbar-expand-lg.navbar-light{
+background:-webkit-linear-gradient(#fafafa,#eaeaea);
+box-shadow: 0 1px 0 rgba(255,255,255,.4), 0 0 10px rgba(0,0,0,.1);
+position: relative;
+border-bottom:1px solid #cacaca;
+}
+   
+
+  .navbar{
+    height: 100px;
+    background: rgba(25,25,25);
+    border-bottom: 1px solid black;
+    
+  } 
+  .logo{
+  float: left;
+  height: 95px;
+  width: auto;
+  margin-left: 50px;
+  }
+
+.nav-link{
+  margin-right: 30px;
+ font-family:'Indie+Flower';
+font-size: 22px;
+border-bottom:3px solid transparent;
+color: rgba(25,25,25);
+}
+a.nav-link {
+  color: rgba(25,25,25);
+}
+
+.nav-link:hover{
+  border-bottom:1px solid black;
+  opacity: 0.9;
+
+   }
+ .navbar-light .navbar-nav .nav-link{
+   color:#FFDDD4;
+   }
+ 
+ /*
+#navbarMenu.collapse.navbar-collapse{
+  border-left:1px solid #434343;
+  border-right: 1px solid #434343;
+  */
+
+ /* Remove extra left and right margins, due to padding in columns */
+
+ .carousel-inner .carousel-item {
+  height: 400px;}
+.row {
+  margin: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  background-size: contain; 
+  
+
+}
+.section-1{ 
+  background:#f1f1f1;
+   
+}
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
+.container-fluid .row .card{
+  padding: 10px;
+  margin: 20px;
+  
+}
+.container-fluid{
+  background: #F1F1F1;
+}
+
+.container {
+  padding: 16px; 
+}
+
+.card+.card {
+  margin: 0 0 0 140px;
+  width: auto;
+}
+
+ .testimonials{
+   background: #f1f1f1;
+  text-align: center;
+  color:#434343;
+}
+
+.testimonial{
+  box-shadow: 10px 10px 5px #aaaaaa;
+  }
+
+.testimonials h1{
+  margin-top:0;
+}
+
+.inner{
+  max-width:auto;
+  margin:auto;
+  overflow: 0 20px;
+
+}
+.border{
+  width:160px;
+  height: 5px;
+  background:#6ab04c;
+  margin: 26px auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex:33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial {
+  background:#fff;
+padding: 30px;}
+
+.testimonial img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;}
+
+  .name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+.star{
+  color:#6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px){
+  .col{
+    flex:100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .col{
+    flex:100%;
+    max-width: 100%;
+  }
+}
+
+/* FOOTER */
+
+.footer-main-div{
+  width: 100%;
+  height:auto;
+  margin:auto;
+  background: #272727;
+  padding: 20px 0px;
+  margin-top: 50px;
+}
+
+.footer-social-icons{
+width: 100%;
+height:auto;
+margin: auto;
+}
+
+.footer-social-icons ul{
+margin:0px;
+padding: 0px; 
+text-align: center;
+
+}
+
+.footer-social-icons ul li{
+  display: inline-block;
+  width:50px;
+  height:50px;
+  margin: 10px;
+border-radius: 100%;
+background: #32cd32;
+
+}
+
+.footer-social-icons ul li a{
+  color: #272727;
+  font-size: 25px;
+  display: block;
+  
+}
+
+.footer-social-icons ul li a i{
+  line-height: 50px;
+  
+}
+
+.footer-menu-one{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  margin-top:20px;
+}
+
+.footer-menu-one ul{
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+
+} 
+
+.footer-menu-one ul li{
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+.footer-menu-one ul li a{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+.footer-menu-one ul a{
+  margin: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer-menu-one ul a:hover{
+  color: beige;
+}
+
+p.para-1{
+  margin: 40px;
+  margin-bottom: 10px;
+
+}
+
+h1.heading-1{
+  margin-top: 40px;
+
+}
+
+.carousel-inner .reading
+{font-family: 'PT+Serif+Caption';
+ margin-left:40%; 
+ position:absolute;
+ top: 10%;
+ background: #272727;
+ opacity: 0.6;
+ color: aliceblue;
+ border-radius: 15px;
+}
+
+.carousel-inner .reading-1{
+color:black; position:absolute; top: 25%;
+ margin-left:50%;
+ background: whitesmoke;
+opacity: 0.3;
+font-family: 'Nothing+You+Could+Do';
+line-height: 2.0;
+border-radius: 15px;
+
+}
+
+
+
+
