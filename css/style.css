@@ -103,28 +103,28 @@ body {
 
 .narrow {
     width: 75%;
-    margin: 0 auto;
-    padding-top: 30px;
+    margin: 30px auto;
+ 
 }
-
 .narrow h1 {
     font-size: 45px;
     text-transform: uppercase;
-    color: #000000;
+    color: rgb(52, 58, 64);
+    font-weight: bold;
+    text-shadow: 2px 4px 2px #000000;
 
 }
 
 .narrow p {
     font-size: 25px;
     color: #000000;
-
 }
 
 #work .btn{
 margin:20px;
 
 }
-
+ 
 .btn-md {
     border-width: medium;
     border-radius: 0;
@@ -143,7 +143,10 @@ h3.heading {
     font-size: 50px;
     text-transform: uppercase;
     padding: 35px;
-    font-weight: 700;
+    color: rgb(52, 58, 64);
+    font-weight: bold;
+    text-shadow: 2px 4px 2px #000000;
+
 }
 
 .heading-underline {
