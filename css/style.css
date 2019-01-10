@@ -112,9 +112,25 @@ body {
     color: rgb(52, 58, 64);
     font-weight: bold;
     text-shadow: 2px 4px 2px #000000;
+    position: relative;
+    margin-bottom: 70px;
 
 }
+.narrow h1::after{   
+    position: absolute;
+    content:"";
+    width: 48px;
+    height: 3px;
+    background-color: rgb(17, 197, 18);
+    margin: 40px auto;
+    display: block;
+    right:0;
+    left: 0;
+       }
 
+.narrow .btn{
+    margin: 50px;
+}
 .narrow p {
     font-size: 25px;
     color: #000000;
@@ -122,7 +138,6 @@ body {
 
 #work .btn{
 margin:20px;
-
 }
  
 .btn-md {
@@ -154,8 +169,13 @@ h3.heading {
     height: 3px;
     background-color: rgb(17, 197, 18);
     margin: 0 auto 40px;
-
 }
+
+
+
+
+
+
 
 .portfolio img {
     max-width: 100%;
