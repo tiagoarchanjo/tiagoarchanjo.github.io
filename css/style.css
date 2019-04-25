@@ -166,7 +166,7 @@ h3.heading {
 
 
 
-.heading h3::after{   
+h3.heading::after{   
     position: absolute;
     content:"";
     width: 80%;
