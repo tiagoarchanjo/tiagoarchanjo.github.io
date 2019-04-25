@@ -130,6 +130,7 @@ body {
 
 .narrow .btn{
     margin: 50px;
+    border-radius: 15px;
 }
 #button1, #button2{
     border-radius: 15px;
