@@ -133,7 +133,7 @@ body {
     border: 2px solid gray;
     padding: 10px;
     border-radius: 25px;
-    position: relative;
+    position: absolute;
 }
 
 .narrow p {
