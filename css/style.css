@@ -131,7 +131,7 @@ body {
 .narrow .btn{
     margin: 50px;
 }
-#button1{
+#button1, #button2{
     border-radius: 15px;
 
 }
