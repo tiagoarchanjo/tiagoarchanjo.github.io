@@ -131,6 +131,10 @@ body {
 .narrow .btn{
     margin: 50px;
 }
+.button1{
+    border-radius: 15px;
+
+}
 .narrow p {
     font-size: 25px;
     color: #000000;
