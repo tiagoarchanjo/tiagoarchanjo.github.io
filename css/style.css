@@ -133,7 +133,9 @@ body {
     border: 2px solid gray;
     padding: 10px;
     border-radius: 25px;
+    position: relative;
 }
+
 .narrow p {
     font-size: 25px;
     color: #000000;
