@@ -130,7 +130,9 @@ body {
 
 .narrow .btn{
     margin: 50px;
-    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 25px;
 }
 .narrow p {
     font-size: 25px;
