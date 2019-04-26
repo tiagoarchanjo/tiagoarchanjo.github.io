@@ -99,6 +99,7 @@ body {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(17, 197, 18);
+    border-bottom:1px solid rgb(17, 197, 18);
 }
 
 .narrow {
@@ -128,7 +129,7 @@ body {
     left: 0;
        }
 
-.narrow a .btn{
+.narrow a  .btn{
     margin: 50px;
     border-radius: 15px;
 }
