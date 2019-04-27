@@ -251,10 +251,10 @@ hr.socket {
     font-size: 25px;
 }
 
-@media screen and (min-width: 600px) 
+@media screen and (min-width:762px) 
     { 
         .navbar-brand img{
-            width: 1%;
+            width: 1px;
         }
 
     .carousel-caption h1 {
