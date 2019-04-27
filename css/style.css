@@ -12,23 +12,55 @@ body {
     display: block;
 }
 
-.navbar {
+.navbar{
+    
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
-    letter-spacing: 4px;
-    background: rgba(0, 0, 0, .6);
-    height: 60px;
+    letter-spacing: 6px;
+     height: 60px;
 }
+ 
+#navbarResponsive ul{
+    margin: 0;
+ }
+
+#navbarResponsive li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0%;
+    
+ }
+#home{
+    color: rgb(17, 197, 18);
+     border-bottom:3px solid rgb(17, 197, 18); 
+}
+ 
+ 
+#navbarResponsive li a{
+text-decoration: none;
+position: relative;
+ overflow: hidden;
+ padding: 14px 15px;
+}
+    
+#navbarResponsive a:hover{
+    color: rgb(17, 197, 18);
+    transition: .3s;
+    border-bottom:3px solid rgb(17, 197, 18); 
+}
+ 
+     
+ 
+
 
 .navbar-brand img {
-    position: absolute;
-    height: 125px;
-    bottom: 7px;
-    width: 200px;
-    left: 50px;
-    bottom: -23px;
+     height: 125px;
+     width: 200px;
+    margin-top: -15px;
+    margin-left: 45px;
 
+    
 }
 
 .carousel-item {
@@ -72,41 +104,24 @@ body {
 
 }
 
+ 
+
 .btn-lg {
     border-width: medium;
     border-radius: 0;
     padding: 10px;
     font-size: 20px;
 }
+ .nav{
+     position: absolute;
+ }
 
-.navbar-nav li {
-    padding-right: 20px;
-}
-
-.navbar-nav li a {
-    color: aliceblue;
-}
-
-.nav-item a.nav-link {
-    color: aliceblue;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: aliceblue;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: rgb(17, 197, 18);
-    border-bottom:1px solid rgb(17, 197, 18);
-    position: relative;
-}
-
-.narrow {
+ .narrow {
     width: 75%;
-    margin: 30px auto;
+    margin: 30px auto;}
  
+    .narrow .btn-secondary{
+border-radius: 15px;
 }
 .narrow h1 {
     font-size: 45px;
@@ -130,10 +145,8 @@ body {
     left: 0;
        }
 
-.narrow a  .btn{
-    margin: 50px;
-    border-radius: 15px;
-}
+  
+     
 #button1, #button2{
     border-radius: 15px;
 
@@ -238,7 +251,10 @@ hr.socket {
     font-size: 25px;
 }
 
-@media (max-width:767px) {
+@media screen and (min-width: 600px) 
+    { 
+       
+        
 
     .carousel-caption h1 {
         font-size: 35px;
@@ -251,7 +267,7 @@ hr.socket {
         padding-bottom: 10px;
     }
 
-    .btn-lg {
+    .btn .btn-lg {
         font-size: 18px;
     }
 
@@ -262,6 +278,7 @@ hr.socket {
     p.lead {
         font-size: 18px;
     }
+    
 }
 
 /*
