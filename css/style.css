@@ -19,14 +19,16 @@ body {
 .navbar-collapse .nav-link{
     margin-right: 40px;
 }
-img {
+.navbar img {
     margin: -35px 0 -20px 0;
-        height: 118px;
+        height: 105px;
      margin-left: 70px;
     width: 190px;
        
 }
-    
+    .navbar-collapse .nav-link{
+        font-size: 19px;
+    }
 
     .carousel-item {
     background-size: cover;
@@ -57,8 +59,7 @@ img {
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 4.8px;
-    text-shadow: 4px 4px 10px black;
-    padding-bottom: 14px;
+     padding-bottom: 14px;
     text-align: center;
 }
 
@@ -93,8 +94,7 @@ border-radius: 15px;
     text-transform: uppercase;
     color: rgb(52, 58, 64);
     font-weight: bold;
-    text-shadow: 2px 4px 2px #000000;
-    position: relative;
+     position: relative;
     margin-bottom: 70px;
 
 }
@@ -146,8 +146,7 @@ h3.heading {
     padding: 35px;
     color: rgb(52, 58, 64);
     font-weight: bold;
-    text-shadow: 2px 4px 2px #000000;
-
+ 
 }
 
 .heading-underline {
@@ -218,7 +217,7 @@ hr.socket {
 
 @media  (max-width:762px) 
     { 
-        img {
+        .navbar img {
             padding-top: 5px;
             height: 80px;
              margin-left: 30px;
