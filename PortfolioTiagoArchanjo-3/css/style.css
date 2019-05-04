@@ -230,6 +230,9 @@ a .far:hover{
 
 @media  (max-width:762px) 
 {
+    .container{
+        margin-top: -10px;
+    }
     .container .text1  {
          font-size: 10px;  
 
@@ -275,13 +278,9 @@ a .far:hover{
         left: 5%;
 
 }
-span.text1{
-    font-size: 10px;
+ 
 }
-span.text2{
-    font-size: 15px;
-}
-}
+
 @media (min-width: 768px) and (max-width: 979px) {
     
             .card.card{
