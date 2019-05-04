@@ -181,7 +181,7 @@ position: fixed;
     left:50%;
     transform: translate(-50%,-50%);
     width: 100%;
-
+    
 }
 
 .container span{
@@ -242,7 +242,7 @@ a .far:hover{
 
     }
  
-}
+
 
     .home-link  {
         margin-top: 60px;
