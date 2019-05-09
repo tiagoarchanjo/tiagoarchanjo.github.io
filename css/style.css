@@ -219,6 +219,10 @@ hr.socket {
 
 @media  (max-width:762px) 
     { 
+        #text ul li
+        {
+        left: -30px;
+        }
         .navbar img {
             padding-top: 5px;
             height: 80px;
