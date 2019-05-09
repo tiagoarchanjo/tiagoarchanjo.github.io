@@ -150,23 +150,22 @@ nav.main-nav ul a:hover{
     transform: translate(-50%,-50%);
     color: white;
      display: block;
-    text-align: center;}
+    text-align: center;
+    font-size: 30px; 
+}
 
 .text1{
-    font-size: 60px;
-    font-weight: 700;
+     font-weight: 700;
     color: white;
     letter-spacing: 8px;
     padding: 1px;
      animation: text 4s 3;
      background: transparent;
      font-size: 10px;
+  } 
  
- } 
-.text2{
-  font-size: 30px;
  
-}
+
 @keyframes text{
     30%{
         color: black;
