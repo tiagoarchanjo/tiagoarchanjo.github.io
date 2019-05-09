@@ -167,20 +167,19 @@ position: fixed;
 .container{
     text-align: center;
      top:60px;
-    left:640px;
-    transform: translate(-50%,-50%);
+    left:600px;
     width: 45%;
     position: absolute;
  
  }
 
 .container span{
+    transform: translate(-50%,-50%);
+
     color: white;
-    text-transform: uppercase;
-    display: block;
+     display: block;
     text-align: center;
-     width:12;
- 
+    
 }
 .text1{
     font-size: 60px;
@@ -188,16 +187,14 @@ position: fixed;
     color: white;
     letter-spacing: 8px;
     padding: 1px;
-     animation: text 2s 1;
+     animation: text 4s 3;
      background: transparent;
      font-size: 10px;
-     position: relative;
-
+ 
  } 
 .text2{
   font-size: 30px;
-  display: block;
-
+ 
 }
 @keyframes text{
     30%{
