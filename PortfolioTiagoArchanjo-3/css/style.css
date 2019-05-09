@@ -1,14 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
  @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
  @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
-body
-{
-    background-color:rgb(12, 44, 89);
-}
+ body{
+    background-color:rgb(12, 44, 89);}
 
  #text ul li 
     {margin-top: 40px;
@@ -23,23 +18,22 @@ body
     list-style-type: none; }
     
 #text ul li a{
-text-decoration-style: none;
-color: whitesmoke;
-text-decoration: none;
+    text-decoration-style: none;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 #text ul li a:hover{
-    color: red;
-}
+    color: red;}
  
 .card.card{
-     position: absolute; 
-     right:560px;
-     top: 200px;
-         border:transparent ;
-     background-color: rgb(6, 27, 56);
-     text-align: center;
-     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute; 
+    right:560px;
+    top: 200px;
+    border:transparent ;
+    background-color: rgb(6, 27, 56);
+    text-align: center;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     
   }
  
@@ -51,38 +45,31 @@ text-decoration: none;
   }
 
   .card .card-text{
-      margin:10px;
+    margin:10px;
   }
     
-     
-
 h3,p{
-    position: relative;
     color:rgb(255, 255, 255);
      line-height: 1.5;
 
 }
 .profile {
-    position: relative;
-font-family: 'Roboto' ;
- }
+ font-family: 'Roboto' ;
+ position: absolute;
+ bottom: 5px;
+ left: 585px;
+  }
 .profile h3{
-    position: fixed;
-     bottom: 1%;
+
     font-size: 14px;
-    right:46%;}
+    }
  
 
-      .profile p{  
-     position: relative;
-    left:5%;
-    text-transform: uppercase;
-    letter-spacing: 7px;
+      
     
-}
 .bg--box{
     width: 40%;
-    position: fixed;
+    position: absolute;
     height: 100vh;
     background-color: #F7F6F5;
     opacity: .03;
@@ -154,11 +141,10 @@ font-size: 25px;
  
 }
 .media ul li a{
-position: fixed;
+position: absolute;
     color: #fff;
      overflow: hidden;
 }
-
 
 .media ul li a:hover{
      opacity: 0.5;}
@@ -167,11 +153,9 @@ position: fixed;
 .container{
     text-align: center;
      top:60px;
-    left:600px;
+    left:625px;
     width: 45%;
-    position: absolute;
- 
- }
+    position: absolute;}
 
 .container span{
     transform: translate(-50%,-50%);
@@ -232,56 +216,40 @@ a .far:hover{
             left: 250px ;
         font-size: 20px  }
   
-        .container.text1,.text2 {        
+    .container.text1,.text2 {        
             font-size: 20px;}
+
     .home-link  {
         margin-top: 60px;
         font-size: 15px;
         margin-left: -60px; }
-    .profile h3{
-        text-align: center;
-        width:auto;
+        
+    .profile {
+        bottom: 2px;
+        left: 220px;   
+    }
 
-    }    
-    .profile p{
-        font-size: small;
-    }    
     .media ul li {
      padding: 30px;
     list-style: none;
-    display: flex;
-    font-size: 17px;
+     font-size: 17px;
     }
+
     .card.card{
         right: 157px;
-        top: 221px;
-    
-    }
-    .profile h3{
-        position: none;
-    }
+        top: 221px;}
+
+     
     .media ul {
         position: absolute;
-        transform: translate(-53%, -50%);
-        top:280px;
+         top:280px;
         left: 5%;}
-
-}
- 
-
-
-@media (min-width: 768px) and (max-width: 979px) {
-    
-            .card.card{
-            position: absolute;
-            right: 286px;
-            top: 216px;
-           }
     }
 
+ @media (min-width: 762px) and (max-width: 979px) {
     
-
-
-
-
- 
+            .card.card{
+                right: 400px;
+                top: 221px;}
+           }
+           
