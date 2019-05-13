@@ -237,7 +237,12 @@ a .far:hover{
 
 @media  (max-width:762px) 
 {
-    
+    .container2{
+        margin-top: 90px;
+       margin-left:40px;
+      font-size: 22px;
+       color:white;}
+       
     #text ul li a{
         font-size: 15px;
         margin-left: -51px;
@@ -248,12 +253,14 @@ a .far:hover{
     .container {
         position: absolute;
           left: -500px ;
-        font-size: 20px ; }
+        font-size: 20px ; 
+    }
   
     .container.text1,.text2 { 
         position: absolute;
          left: 10px;        
-            font-size: 20px;}
+            font-size: 20px;
+         }
 
     .home-link  {
         margin-top: 60px;
@@ -287,5 +294,9 @@ a .far:hover{
             .card.card{
                 right: 400px;
                 top: 221px;}
+                
            }
            
+           .container{
+               z-index: -4;
+           }
