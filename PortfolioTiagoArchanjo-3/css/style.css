@@ -154,10 +154,10 @@ nav.main-nav ul a:hover{
     
 }
 
-.media ul li a:hover{
+.media a:hover{
      color:red}
 
-.container2{
+.container2 a{
      margin-top: 90px;
     margin-left:110px;
     position: absolute;
@@ -165,13 +165,24 @@ nav.main-nav ul a:hover{
     font-size: 24px;
     font-family: 'Macondo+Swash+Caps';
     line-height: 1.0;
-     text-decoration: none;
-    text-decoration-style: none;
-    list-style-type: none;
-    width: 0 auto;
-    color:white;
     
+    width: 0 auto;
+    color:white;}
+    
+ .container2 a:hover{
+    color: red;
+    text-decoration: none;
+    
+    }
 
+
+
+
+.fa-envelope:hover {
+    color:red;
+    text-decoration: none;
+
+ 
 }
 
 
@@ -276,7 +287,10 @@ a .far:hover{
      padding: 30px;
     list-style: none;
      font-size: 17px;
+
     }
+
+
 
     .card.card{
         right: 157px;
