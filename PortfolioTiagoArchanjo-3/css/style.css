@@ -42,7 +42,7 @@
 }
 
 #text ul li a:hover{
-    color: red;}
+    color: rgb(251, 61, 85);}
  
 .card.card{
     position: absolute; 
@@ -155,7 +155,7 @@ nav.main-nav ul a:hover{
 }
 
 .media a:hover{
-     color:red}
+     color:rgb(251, 61, 85)}
 
 .container2 a{
      margin-top: 90px;
@@ -170,7 +170,7 @@ nav.main-nav ul a:hover{
     color:white;}
     
  .container2 a:hover{
-    color: red;
+    color: rgb(251, 61, 85);
     text-decoration: none;
     
     }
@@ -179,7 +179,7 @@ nav.main-nav ul a:hover{
 
 
 .fa-envelope:hover {
-    color:red;
+    color:rgb(251, 61, 85);
     text-decoration: none;
 
  
@@ -200,9 +200,8 @@ nav.main-nav ul a:hover{
     .container span{
         color: white;
         text-transform: uppercase;
-        display: block;
+        display: block;}
 
-    }
 
     .text1{
         font-size: 40px;
@@ -218,8 +217,7 @@ nav.main-nav ul a:hover{
     .text2{
         text-align: center;
     font-size: 30px;
-    display: block;
-    
+     
     }
   
 
@@ -248,17 +246,18 @@ a .far:hover{
 
 @media  (max-width:762px) 
 {
-    .container2{
-        margin-top: 90px;
-       margin-left:40px;
+    .container2 a{
+        position: absolute;
+        margin-top: 70px;
+       margin-left:48px;
       font-size: 22px;
        color:white;}
        
-    #text ul li a{
+    #text ul li {
         font-size: 15px;
-        margin-left: -51px;
-        display: block;
-        margin-top: 5px;
+          margin-top: 45px;
+          margin-left: 2px;
+          position: absolute;
     }
  
     .container {
